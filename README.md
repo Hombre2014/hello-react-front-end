@@ -24,8 +24,6 @@ The project requirements can be viewed [here](https://github.com/microverseinc/c
 - Framework: React, Redux
 - Tools: ReduxToolkit
 
-## Usage
-
 ### To start the back end, do the following:
 
 #### Usage
