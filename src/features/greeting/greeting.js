@@ -5,7 +5,7 @@ const Greeting = () => {
 
   return (
     <>
-      <p>{message}</p>
+      <h2 className="text">{message}</h2>
     </>
   );
 };
