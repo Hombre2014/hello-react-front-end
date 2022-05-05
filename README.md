@@ -1,46 +1,71 @@
-# Getting Started with Create React App and Redux
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Set up a "Hello world" project with two apps
 
-## Available Scripts
+>  React with ReduxToolkit on the front end.
 
-In the project directory, you can run:
+## Hello-react-front-end part of the project
 
-### `npm start`
+This project will consist of two separate apps:
+- hellp-react-front-end (this one)
+- hello-rails-back-end. The back-end repo is [here](https://github.com/Hombre2014/hello-rails-back-end)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project is going to have a React front-end with a Rails back-end and connect them to display a random message.
 
-### `npm test`
+## Project requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project requirements can be viewed [here](https://github.com/microverseinc/curriculum-rails/blob/main/connect-frontend-frameworks/hello_world_two_apps.md)
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Languages: JavaScript
+- Framework: React, Redux
+- Tools: ReduxToolkit
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### To start the back end, do the following:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Usage
 
-### `npm run eject`
+Run the following commands:</br>
+`git clone https://github.com/Hombre2014/hello-rails-back-end`</br>
+`cd hello-rails-back-end`</br>
+`bundle install`</br>
+`rails s`</br>
+Open a browser and go to: `https://localhost:3000` to view the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Database setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`cd hello-rails-back-end`</br>
+`rails db:create db:migrate db:seed`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### To start the front end, do the following:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run the following commands:</br>
+`git clone https://github.com/Hombre2014/hello-react-front-end`</br>
+`npm install`</br>
+`npm start`</br>
+The WebDev server will ask you to change the port 3000, since it is already ocupied by the Rails server. Type "Y" and continue. The WebDev server will run on port 3001 and will open a new browser loading the home page.
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Yuriy Chamkoriyski**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@Hombre2014](https://github.com/Hombre2014)
+- Twitter: [@Chamkoriyski](https://twitter.com/Chamkoriyski)
+- LinkedIn: [axebit](https://linkedin.com/in/axebit)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Hombre2014/hello-react-front-end/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./license.md) licensed.

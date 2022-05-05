@@ -11,12 +11,14 @@ export const fetchMessage = createAsyncThunk(
 
 export const greetingSlice = createSlice({
   name: 'greeting',
+
   initialState: {
-    message: '',
+    message: 'Welcome!',
   },
+
   reducers: {
     getMessage: (state) => { /* eslint-disable no-param-reassign */
-      state.message = 'bye';
+      state.message = 'Goodbye';
     },
   },
 
